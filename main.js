@@ -36,35 +36,34 @@ function my_keydown(e) {
         document.getElementById("d1").innerHTML = "you pressed an other key";
     }
 }
+
 function alphabetkey() {
-    document.getElementById("alphabetKeyImage").src = "Alpkey.png";
+    document.getElementById("alphabetKeyImage").innerHTML="you pressed an alphabet key";
     var img_image = "Alpkey.png";
     add(img_image);
 }
 
 function numberkey() {
-    document.getElementById("numberKeyImage").src = "numkey.png";
+    document.getElementById("numberKeyImage").innerHTML="you pressed a number key";
     var img_image = "numkey.png";
     add(img_image);
 }
 
 function arrowkey() {
-    document.getElementById("arrowKeyImage").src = "Arrkey.png";
+    document.getElementById("arrowKeyImage").innerHTML="you pressed an arrow key";
     var img_image = "Arrkey.png";
     add(img_image);
 }
 
 function specialkey(){
-    document.getElementById("specialKeyImage").src = "spkey.png";
+    document.getElementById("specialKeyImage").innerHTML="you pressed a speical key";
     var img_image = "spkey.png";
     add(img_image);
 }
 
 function otherkey() {
-    document.getElementById("otherKeyImage").src = "otherkey.png";
+    document.getElementById("otherKeyImage").innerHTML="you pressed an otherkey";
     var img_image = "otherkey.png";
     add(img_image);
 }
-
-
 
