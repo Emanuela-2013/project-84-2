@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 10px;
+	border-width:40px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	
+	color:red!important;
+	
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>ASCII value</title>
+</head>
+<body onload="add()">
+
+<center>
+<h1>Keyboard keys</h1>
+	<canvas id="myCanvas" width="500" height="300">
+   </canvas>
+
+   <br>
+	<div id="d1"></div>
+<h4>
+	<b class="text-danger">NOTE : </b> PRESS ANY KEYBOARD KEY 
+</h4>
+<img id="image-element" />
+<img id="alphabetKeyImage" src="Alpkey.png" style="display: none;">
+<img id="numberKeyImage" src="numkey.png" style="display: none;">
+<img id="arrowKeyImage" src="Arrkey.png" style="display: none;">
+<img id="specialKeyImage" src="spkey.png" style="display: none;">
+<img id="otherKeyImage" src="otherkey.png" style="display: none;">
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
